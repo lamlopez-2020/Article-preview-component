@@ -181,14 +181,15 @@ body {
 .profile__date {
   margin: 0;
   font-size: 14px;
-}
+  }
 
 .profile__name {
   font-weight: 700;
+  color: var(--name-text);
 }
 
 .profile__date {
-  color: var(--light-text);
+  color: var(--date-text);
 }
 
 .share {
@@ -259,10 +260,8 @@ body {
     border-top-color: var(--bg-social-bar);
     border-top-style: solid;
     border-top-width:10px;
-
   }
 }
-
 
 .tooltip__text {
   letter-spacing: 3px;
