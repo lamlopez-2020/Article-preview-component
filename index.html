@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Frontend Mentor | Article preview component</title>
+</head>
+
+
+<body>
+
+    <article class="article">
+
+        <header class="article__header"></header>
+
+        <h2 class="article__title">
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+        </h2>
+        <p class="article__text">
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.
+        </p>
+
+        <footer class="footer">
+            <div class="profile">
+                <img class="profile__avatar" src="/assets/images/avatar-michelle.jpg" alt="avatar">
+
+                <div class="profile__info">
+                    <p class="profile__name">
+                        Michelle Appleton
+                    </p>
+                    <time class="profile__date" datetime="2021-05-01">
+                        01 May 2021
+                    </time>
+                </div>
+            </div>
+
+            <a href="#" id="share-icon" class="share share--active share--inactive">
+                <img class="share__icon" src="/assets/icons/icon-share.svg" alt="share">
+            </a>
+            <div id="tooltip" class="tooltip tooltip--show">
+                <span class="tooltip__text">SHARE</span>
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <img src="/assets/icons/icon-facebook.svg" alt="facebook logo">
+                        </a>
+                    </li>
+                    <li class="tooltip__item">
+                        <a href="#" class="tooltip__icon">
+                            <img src="/assets/icons/icon-twitter.svg" alt="twitter logo">
+                        </a>
+                    </li>
+                    <li class="tooltip__item">
+                        <a href="#" class="tooltip__icon">
+                            <img src="/assets/icons/icon-pinterest.svg" alt="pinterest logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </article>
+
+    <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
